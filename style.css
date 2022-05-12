@@ -1,0 +1,196 @@
+body{
+    background-image: url("img/fondopagina.jpg");
+    background-size: cover;
+    background-position: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* header */
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 98vw;
+    background-color: #c7f9cc;
+    /* opacity: 0.3; */
+}
+
+h1{
+    color: black;
+}
+
+.whatsapp{
+    font-size: 50px;
+    background-color: #17c437;
+    color: white;
+    border-radius: 50px;
+}
+
+nav a{
+    color: black;
+    margin-left: 30px;
+    text-decoration: none;
+}    
+
+/* primera pagina */
+
+#perfil{
+    display: flex;
+    height: 100vh;
+}
+
+.datos1{
+    width: 50%;
+}
+
+.datos1 h2{
+    margin-top: 200px;
+    color: #d9ed92;
+    font-size: 4rem;  
+    margin-left: 40px;
+}
+
+.datos1 h4{
+    color: white;
+    margin-left: 40px;
+}
+
+.textos{
+    margin-top: 70px;
+    display: flex;
+    color: white;
+    gap:20px;
+    margin-left: 40px;
+}
+
+/* imagen mia */
+
+.datos2{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.datos2 img{
+    margin-top: 150px;
+    height: 600px;
+    width: 450px;
+    border-radius: 50px;
+}
+
+/* segunda pag */
+
+#skills{
+    background-color: #fefae0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 30px;
+}
+
+#skills h2{
+    border: 1px solid black;
+    border-radius: 20px;
+    font-size: 2rem;
+    background-color: #bde0fe;
+    width: 300px;
+    text-align: center;
+}
+
+.ordenarhabilidades{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 200px;
+}
+
+.botoncss{
+    height: 400px;
+    font-size: 25rem;
+    background-color: #fefae0;
+    color: #1e96fc;
+    border: none;
+}
+
+.botonhtml{
+    height: 400px;
+    font-size: 25rem;
+    background-color: #fefae0;
+    color: #f35b04;
+    border: none;
+}
+
+.botonjs{
+    height: 400px;
+    font-size: 20rem;
+    background-color: #fefae0;
+    color: #ffbe0b;
+    border: none;
+}
+
+.botonbootstrap{
+    height: 400px;
+    font-size: 20rem;
+    background-color: #fefae0;
+    color: #8338ec;
+    border: none;
+}
+
+/* tercera pag */
+
+#trabajos{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 30px;
+    background-color: #fefae0; 
+    height: 100vh;
+}
+
+#trabajos h2{
+    border: 1px solid black;
+    border-radius: 20px;
+    font-size: 2rem;
+    background-color: #bde0fe;
+    width: 300px;
+    text-align: center;
+}
+
+ul{
+    margin-top: 200px;
+    list-style: none;
+    display:flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.trabajo1{
+    height: 400px;
+    width: 300px;
+    border-radius: 30px;
+    box-shadow: 10px 8px 8px grey;
+}
+
+.trabajo2{
+    height: 400px;
+    width: 300px;
+    border-radius: 30px;
+    box-shadow: 10px 8px 8px grey;
+}
+
+.trabajo3{
+    height: 400px;
+    width: 300px;
+    border-radius: 30px;
+    box-shadow: 10px 8px 8px grey;
+}
+
+/* footer */
+
+footer{
+    background-color: lightpink;
+}
